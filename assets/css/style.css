@@ -1,0 +1,114 @@
+/* Css reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Figtree";
+  src: url("../fonts/Figtree-VariableFont_wght.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fightree";
+  src: url("../fonts/Figtree-Italic-VariableFont_wght.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Fightree";
+  src: url("../fonts/static/Figtree-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fightee";
+  src: url("../fonts/static/Figtree-SemiBold.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Variable colors */
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray500: hsl(0, 0%, 42%);
+  --gray950: hsl(0, 0%, 7%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  height: 100svh;
+  font-family: "Figtree", sans-serif;
+}
+
+.card {
+  background-color: var(--white);
+  max-width: 24rem;
+  max-height: 32.625rem;
+  padding: 1rem;
+  margin: 1rem;
+  border: 0.1rem solid var(--gray950);
+  border-radius: 1.25rem;
+  box-shadow: 0.5rem 0.5rem var(--gray950);
+}
+
+.card .card-image img {
+  width: 100%;
+  border-radius: 1.25rem;
+}
+
+.card main {
+  margin: 1rem 0;
+}
+
+.card main mark {
+  background-color: var(--yellow);
+  color: var(--gray950);
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+  font-weight: 800;
+}
+
+.card main time {
+  display: block;
+  margin-top: 1rem;
+}
+
+.card main h2 {
+  color: var(--gray950);
+  margin-top: 1rem;
+  font-weight: 800;
+}
+
+.card main p {
+  color: var(--gray500);
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.card main address {
+  color: var(--gray950s);
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.card main address img {
+  width: 2rem;
+  height: 2rem;
+}

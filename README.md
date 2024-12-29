@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [my solutions](https://your-solution-url.com)
-- Live Site URL: [my site](https://https://tucill.github.io/blog-preview-card/)
+- Live Site URL: [my site](https://tucill.github.io/blog-preview-card/)
 
 ## My process
 
@@ -75,7 +75,7 @@ I want to continue to develop and gain experience in creating beatiful and inter
 
 ## Author
 
-- Website - [tucill](https://https://tucill.github.io/blog-preview-card/)
+- Website - [tucill](https://tucill.github.io/blog-preview-card/)
 - Frontend Mentor - [@tucill](https://www.frontendmentor.io/profile/tucill)
 - Instagram - [@tucill.xyz](https://www.instagram.com/tucill.xyz)
 

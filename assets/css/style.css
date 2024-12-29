@@ -89,6 +89,11 @@ body {
   color: var(--gray950);
   margin-top: 1rem;
   font-weight: 800;
+  cursor: pointer;
+}
+
+.card main h2:hover {
+  color: var(--yellow);
 }
 
 .card main p {

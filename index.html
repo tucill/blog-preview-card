@@ -28,33 +28,42 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <article class="card">
-      <div class="card-image">
-        <img src="assets/images/illustration-article.svg" alt="Card image" />
-      </div>
+    <main class="card">
+      <img
+        class="card-image"
+        src="assets/images/illustration-article.svg"
+        alt=""
+      />
 
-      <main>
-        <mark>Learning</mark> <br />
-        <time datetime="2023 - 12 - 21">Published 21 Dec 2023</time>
-        <h2>HTML & CSS foundations</h2>
-        <p>
+      <div class="card-teks">
+        <p class="learning">Learning</p>
+        <p class="published">
+          <time datetime="2023-12-21">Published 21 Dec 2023</time>
+        </p>
+        <a class="title" href="#">HTML & CSS foundations</a>
+        <p class="teks">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
 
-        <address>
-          <img src="assets/images/image-avatar.webp" alt="Avatar" />
+        <div class="card-author">
+          <img
+            src="assets/images/image-avatar.webp"
+            alt="Avatar icon Greg Hooper"
+          />
           Greg Hooper
-        </address>
-      </main>
-    </article>
+        </div>
+      </div>
+    </main>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by
-      <a href="https://www.frontendmentor.io/profile/tucill">tucill</a>.
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/tucill">tucill</a>.
+      </div>
+    </footer>
   </body>
 </html>

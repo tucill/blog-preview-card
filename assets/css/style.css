@@ -128,7 +128,12 @@ body {
   margin: 1rem;
   border: 0.1rem solid var(--gray950);
   border-radius: 1.25rem;
-  box-shadow: 0.5rem 0.5rem var(--gray950);
+  box-shadow: 0.5rem 0.5rem 0 var(--gray950);
+  transition: box-shadow .2s ease-out;
+}
+
+.card:hover {
+  box-shadow: 0.8rem 0.8rem 0 var(--gray950);
 }
 
 .card-image {
@@ -157,6 +162,7 @@ body {
   font-size: 1.5rem;
   font-weight: 800;
   text-decoration: none;
+  transition: color .2s ease;
 }
 
 .title:hover {
